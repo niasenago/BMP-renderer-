@@ -27,9 +27,9 @@ copy:
     mov al, 24h
     mov ds:[filename + bx], al  ;add '$' at the end of string
 
-  ;  mov ah, 09h
-   ; mov dx,offset filename ;what to print
-  ;  int 21h
+    mov ah, 09h
+    mov dx,offset filename ;what to print
+    int 21h
 
 exit:
     mov dx, offset endl
