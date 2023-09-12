@@ -1,5 +1,2 @@
 # BMP-renderer-
-This my homework for the computer architecture. Program is writen in assembly x86 language.
-Program renders 320x200 pixels resolution 8 bit per pixel images.
-First inline entered arguement should be image name with the extention. (e.g. name.bmp)
-To compile i used TASM. 
+This is my computer architecture homework, where I've written a program in assembly x86 language. The program is designed to render images with a resolution of 320x200 pixels and a color depth of 8 bits per pixel. The first argument entered inline should specify the image's name along with its extension, for example, "name.bmp". I used TASM for compiling this program.
